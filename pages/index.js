@@ -28,9 +28,7 @@ export default function Home() {
               <p>Rewrites allow you to map an incoming request path to a different destination path.</p>
             </a>
           </Link>
-        </div>
 
-        <div className={styles.grid}>
           <Link href="/es/about-us">
             <a className={styles.card}>
               <h2>Go to original page &rarr;</h2>
