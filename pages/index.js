@@ -29,6 +29,16 @@ export default function Home() {
             </a>
           </Link>
         </div>
+
+        <div className={styles.grid}>
+          <Link href="/es/about-us">
+            <a className={styles.card}>
+              <h2>Go to original page &rarr;</h2>
+              <p>The original page that the rewrite is mapped to.</p>
+            </a>
+          </Link>
+        </div>
+
       </main>
 
       <footer className={styles.footer}>
