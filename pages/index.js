@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        Rewrites act as a URL proxy and mask the destination path, making it appear the user hasn't changed their location on the site.
+        Rewrites act as a URL proxy and mask the destination path, making it appear the user hasn&apos;t changed their location on the site.
         </p>
 
         <div className={styles.grid}>
@@ -28,7 +28,6 @@ export default function Home() {
               <p>Rewrites allow you to map an incoming request path to a different destination path.</p>
             </a>
           </Link>
-
         </div>
       </main>
 
